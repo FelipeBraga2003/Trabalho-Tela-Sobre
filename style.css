@@ -1,0 +1,176 @@
+/* GERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.btnOrange {
+  padding: 10px;
+  background-color: orangered;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  border: solid 3px white;
+}
+
+/* Inicio estilo header */
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 80px;
+  border-bottom: solid orangered 3px;
+}
+
+.header h1 {
+  float: left;
+  color: white;
+}
+
+.header ul {
+  /* Tira as bolinhas da lista */
+  list-style: none;
+  float: right;
+}
+
+.header h1,
+.header ul {
+  margin-top: 20px;
+}
+
+.header li {
+  /* Coloca os elementos <li> na mesma linha como blocos */
+  display: inline-block;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #444444;
+}
+
+.header ul li a {
+  /* Tira o estilo de 'link' */
+  text-decoration: none;
+  color: white;
+}
+
+.header .text-orange {
+  color: orange;
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-image: url("./IMG/banner-fundo.jpeg");
+  background-size: cover;
+}
+
+.banner h1 {
+  padding-top: 150px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: orangered;
+}
+
+.banner h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 15px;
+  color: #232323;
+}
+/* Fim banner */
+
+/* Inicio novidades */
+.news {
+  width: 100%;
+  height: 80px;
+  background-color: #232323;
+  text-align: center;
+}
+
+.news button {
+  margin-top: 25px;
+}
+/* Fim novidades */
+
+/* Inicio missão */
+.box{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.boxItem{
+  display: inline-block;
+  width: 32%;
+}
+
+.boxItem img{
+  width: 100px;
+  margin-top: 35px;
+}
+.boxItem h3, .boxItem p{
+  margin-top: 15px;
+}
+
+.boxTitulo h3{
+  margin-top: 0px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+  
+/* Fim missão */
+
+/* Início banner sobre */
+.bannerSobre{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-image: url("./IMG/fotoEstufa.jpg");
+  background-size: cover;
+}
+.bannerSobre h1 {
+  padding-top: 150px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: orangered;
+}
+
+.bannerSobre h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 15px;
+  color: #232323;
+}
+/* Fim banner sobre */
+
+/* Inicio Imagem */
+
+
+.textoArduino{
+  background-color: black;
+  text-align: center;
+  padding-top: 5%;
+  width: 100%;
+  float: left;
+  color: skyblue;
+}
+
+.rodape{
+  background-color: #444444;
+  color: skyblue;
+}
+
+/* Fim Imagem */
